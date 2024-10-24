@@ -1,0 +1,147 @@
+[
+  {
+    "type": "message",
+    "data": {
+      "id": "0",
+      "author": { "role": "user" },
+      "created": 1729596833,
+      "content": [
+        {
+          "type": "text",
+          "text": "Hi! Can you create a feature group from this file?"
+        },
+        {
+          "type": "file",
+          "path": "/Resources/Chats/88/mydata.csv",
+          "title": "mydata.csv"
+        }
+      ]
+    }
+  },
+  {
+    "type": "message",
+    "data": {
+      "id": "1",
+      "author": { "role": "assistant" },
+      "created": 1729596833,
+      "content": []
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": {
+        "type": "title",
+        "from": "",
+        "to": "Creating Feature Group from mydata.csv"
+      }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": { "type": "text", "text": "Certainly! " }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": {
+        "type": "step",
+        "title": "Figuring out data layout of mydata.csv..."
+      }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": {
+        "type": "step",
+        "title": "Generating python script..."
+      }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": { "type": "step", "title": "Fixing errors..." }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": { "type": "text", "text": "Here " }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": { "type": "text", "text": "is " }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": { "type": "text", "text": "*your " }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": { "type": "text", "text": "awesome " }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": { "type": "text", "text": "script*: " }
+    }
+  },
+  {
+    "type": "update",
+    "data": {
+      "messageId": "1",
+      "contentAppendix": {
+        "type": "file",
+        "title": "Awesome script",
+        "description": "This script is **awesome**!",
+        "path": "/Resources/Chats/88/create_feature_group.py"
+      }
+    }
+  },
+  {
+    "type": "message",
+    "data": {
+      "id": "1",
+      "author": { "role": "assistant" },
+      "created": 1729596833,
+      "content": [
+        {
+          "type": "title",
+          "from": "",
+          "to": "Creating Feature Group from mydata.csv"
+        },
+        {
+          "type": "text",
+          "text": "Certainly! Here is *your awesome script*: "
+        },
+        {
+          "type": "file",
+          "title": "Awesome script",
+          "description": "This script is **awesome**!",
+          "path": "/Resources/Chats/88/create_feature_group.py"
+        }
+      ]
+    }
+  }
+]
