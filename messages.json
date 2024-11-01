@@ -42,7 +42,7 @@
     "type": "update",
     "data": {
       "messageId": "1",
-      "contentAppendix": { "type": "text", "text": "Certainly! " }
+      "contentAppendix": { "type": "text", "text": "**Certainly!** " }
     }
   },
   {
@@ -133,7 +133,7 @@
         },
         {
           "type": "text",
-          "text": "Certainly! Here is *your awesome script*: "
+          "text": "**Certainly!** Here is *your awesome script*: "
         },
         {
           "type": "file",
