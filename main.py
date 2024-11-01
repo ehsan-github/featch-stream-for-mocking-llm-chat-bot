@@ -18,10 +18,9 @@ with open('messages.json') as file:
 
 
 async def slow_numbers(maximum):
-    output = map(x => ,)
     for number in range(maximum):
         yield f'data: {sampleOutPut[number]}\n\n' 
-        await asyncio.sleep(random.random() * 3)
+        await asyncio.sleep(random.random() * 1)
 
     yield f'data: [DONE]\n\n' 
 
